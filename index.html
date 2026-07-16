@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的天賦潛能探索檔案 — 系統改善者 System Improver</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            850: '#1e293b',
+                            900: '#0f172a',
+                            950: '#020617',
+                        },
+                        emerald: {
+                            400: '#34d399',
+                            500: '#10b981',
+                        },
+                        cyan: {
+                            400: '#22d3ee',
+                            500: '#06b6d4',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts for icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet" />
+    <style>
+        /* Smooth Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #020617;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #334155;
+        }
+        .glow-green {
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.15);
+        }
+        .glow-cyan {
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans min-h-screen flex flex-col selection:bg-cyan-500/30 selection:text-cyan-200">
+
+    <!-- Header Section -->
+    <header class="border-b border-slate-800/60 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-cyan-400 text-3xl">terminal</span>
+                <div>
+                    <h1 class="text-xl font-bold tracking-wider text-slate-100">TALENT PROFILE</h1>
+                    <p class="text-xs text-slate-400">專屬個人天賦潛能分析網頁</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4 text-sm text-slate-400">
+                <span class="px-3 py-1 bg-slate-800 border border-slate-700/50 rounded-full text-xs font-mono text-cyan-300">定位：系統改善者 (System Improver)</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-6xl w-full mx-auto px-6 py-12 space-y-16">
+        
+        <!-- Hero Section -->
+        <section class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 border border-slate-800/80 p-8 md:p-12 glow-cyan">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="relative z-10 max-w-3xl space-y-6">
+                <span class="inline-block px-3 py-1 bg-cyan-950 text-cyan-400 text-xs font-semibold rounded-full border border-cyan-800/50 tracking-widest uppercase">My Inner Blueprint</span>
+                <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-slate-100 via-cyan-100 to-emerald-400 leading-tight">
+                    不追求耀眼，但追求極致可靠。
+                </h2>
+                <p class="text-lg text-slate-300 leading-relaxed">
+                    「我不需要成為最耀眼的人，但我希望成為最值得信賴的人，而且持續比昨天的自己更好。」這不是一句謙虛的客套，而是你最核心、最穩定的內在驅動力。
+                </p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+                    <div class="bg-slate-950/60 p-4 rounded-lg border border-slate-800/80">
+                        <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">核心角色定位</div>
+                        <div class="text-base font-semibold text-cyan-300">系統改善者 (System Improver)</div>
+                    </div>
+                    <div class="bg-slate-950/60 p-4 rounded-lg border border-slate-800/80">
+                        <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">主導驅動力</div>
+                        <div class="text-base font-semibold text-emerald-400">維持與改善 (Maintenance)</div>
+                    </div>
+                    <div class="bg-slate-950/60 p-4 rounded-lg border border-slate-800/80">
+                        <div class="text-xs text-slate-400 uppercase tracking-wider mb-1">最契合發展路徑</div>
+                        <div class="text-base font-semibold text-slate-200">資深專業貢獻者 (IC)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Persona Comparison: 明星型 vs 信任型 -->
+        <section class="space-y-8">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <h3 class="text-2xl font-bold tracking-tight text-slate-100">職場兩大高手定位：你屬於哪一種？</h3>
+                <p class="text-slate-400 text-sm">重新定義你的天賦價值——不當明星，當團隊最穩固的信任基石。</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- 明星型 -->
+                <div class="bg-slate-900/30 border border-slate-800/40 rounded-xl p-8 opacity-60 relative overflow-hidden group hover:opacity-85 transition-opacity duration-300">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-amber-500 text-3xl">wb_sunny</span>
+                        <h4 class="text-xl font-bold text-slate-300">明星型人才</h4>
+                    </div>
+                    <ul class="space-y-3 text-slate-400 text-sm">
+                        <li class="flex items-start gap-2"><span class="text-amber-500/70">✦</span> 追求第一，將競爭與勝出當作最大成就</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-500/70">✦</span> 喜愛曝光、舞台、演說，善於帶領與激勵團隊</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-500/70">✦</span> 以站在權力與舞台頂峰為終極目標</li>
+                        <li class="flex items-start gap-2"><span class="text-amber-500/70">✦</span> 常見於：創業家、企業領袖、頂尖銷售</li>
+                    </ul>
+                </div>
+                <!-- 信任型 -->
+                <div class="bg-slate-900/80 border border-cyan-500/30 rounded-xl p-8 relative overflow-hidden glow-cyan">
+                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-cyan-500/10 rounded-full blur-2xl"></div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-cyan-400 text-3xl">verified_user</span>
+                        <h4 class="text-xl font-bold text-cyan-300">信任型人才 (你)</h4>
+                    </div>
+                    <ul class="space-y-3 text-slate-200 text-sm">
+                        <li class="flex items-start gap-2"><span class="text-cyan-400">✦</span> 追求穩定、深度、高負責，樂於長期累積信用</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-400">✦</span> 不需要大量虛名掌聲，極擅長獨立處理複雜棘手問題</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-400">✦</span> 將「事情交給我，所有人都可以放心」視為最高價值</li>
+                        <li class="flex items-start gap-2"><span class="text-cyan-400">✦</span> 常見於：資深產品經理、首席工程師、策略分析師</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Talents: 三大核心天賦 -->
+        <section class="space-y-8">
+            <h3 class="text-2xl font-bold tracking-tight text-slate-100 flex items-center gap-2">
+                <span class="w-1.5 h-6 bg-cyan-400 rounded-full"></span>核心天賦模型
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- 天賦 1 -->
+                <div class="bg-slate-900/60 border border-slate-800/80 p-6 rounded-xl hover:border-cyan-500/30 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-cyan-950/80 border border-cyan-800/40 rounded-lg flex items-center justify-center mb-5 group-hover:bg-cyan-900/80 transition-colors">
+                        <span class="material-symbols-outlined text-cyan-400">hub</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-100 mb-2">系統改善能力</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        天生具備 Pattern 識別特質。善於在混亂資訊中看出蛛絲馬跡、尋找事物成因，並建立起清晰邏輯，最終提出「務實、可落地」的系統改善方案。
+                    </p>
+                </div>
+                <!-- 天賦 2 -->
+                <div class="bg-slate-900/60 border border-slate-800/80 p-6 rounded-xl hover:border-emerald-500/30 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-emerald-950/80 border border-emerald-800/40 rounded-lg flex items-center justify-center mb-5 group-hover:bg-emerald-900/80 transition-colors">
+                        <span class="material-symbols-outlined text-emerald-400">travel_explore</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-100 mb-2">深度探索能力</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        你不滿足於表面現象。面對感興趣的事物、趨勢、歷史或工作痛點，你總是會開啟無數分頁，探查根源，非得把來龍去脈與演變徹底搞懂才肯罷休。
+                    </p>
+                </div>
+                <!-- 天賦 3 -->
+                <div class="bg-slate-900/60 border border-slate-800/80 p-6 rounded-xl hover:border-slate-700 transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-slate-800/80 border border-slate-700/40 rounded-lg flex items-center justify-center mb-5 group-hover:bg-slate-700 transition-colors">
+                        <span class="material-symbols-outlined text-slate-300">published_with_changes</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-100 mb-2">穩定執行與維持力</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        具備驚人的穩定輸出特質。無論是維持生活的整潔規律、長期的體態健康，還是面對反覆修改的工作項目，你都能不浮躁、不抱怨，穩健地推動事情向前。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Behavior Pattern: 行為與思考流向 -->
+        <section class="bg-slate-900/40 border border-slate-800/60 rounded-2xl p-8 space-y-6">
+            <h3 class="text-2xl font-bold tracking-tight text-slate-100">你的行為解碼：驚人一致的思維迴路</h3>
+            <p class="text-slate-400 text-sm max-w-2xl">
+                從工作到生活，甚至在看待排水孔堵塞的日常瑣事上，你的大腦始終遵循著同一個高效率、穩定的運作鏈：
+            </p>
+            
+            <div class="flex flex-col md:flex-row items-stretch justify-between gap-4 pt-4">
+                <div class="flex-1 bg-slate-950 border border-slate-800 p-4 rounded-xl relative">
+                    <span class="absolute -top-3 left-4 px-2 py-0.5 bg-slate-800 text-xs text-slate-400 rounded font-mono">STEP 01</span>
+                    <h5 class="font-bold text-slate-200 mt-2 mb-1 flex items-center gap-1.5"><span class="text-cyan-400">•</span> 發現異常 / 問題</h5>
+                    <p class="text-xs text-slate-400">看見競品變化、看見排水孔流下如瀑布的水，主動察覺混亂與不合理處。</p>
+                </div>
+                <div class="flex items-center justify-center text-slate-600">
+                    <span class="material-symbols-outlined rotate-90 md:rotate-0">trending_flat</span>
+                </div>
+                <div class="flex-1 bg-slate-950 border border-slate-800 p-4 rounded-xl relative">
+                    <span class="absolute -top-3 left-4 px-2 py-0.5 bg-slate-800 text-xs text-slate-400 rounded font-mono">STEP 02</span>
+                    <h5 class="font-bold text-slate-200 mt-2 mb-1 flex items-center gap-1.5"><span class="text-cyan-400">•</span> 深度探索與追尋</h5>
+                    <p class="text-xs text-slate-400">瘋狂開網頁分頁研究、探索背後歷史、整理 Pattern 找出根本原因與脈絡。</p>
+                </div>
+                <div class="flex items-center justify-center text-slate-600">
+                    <span class="material-symbols-outlined rotate-90 md:rotate-0">trending_flat</span>
+                </div>
+                <div class="flex-1 bg-slate-950 border border-slate-800 p-4 rounded-xl relative">
+                    <span class="absolute -top-3 left-4 px-2 py-0.5 bg-slate-800 text-xs text-slate-400 rounded font-mono">STEP 03</span>
+                    <h5 class="font-bold text-slate-200 mt-2 mb-1 flex items-center gap-1.5"><span class="text-cyan-400">•</span> 建立理解與模型</h5>
+                    <p class="text-xs text-slate-400">不求宏大空泛的創意，追求在腦中將系統結構化、模型化，徹底搞懂運作方式。</p>
+                </div>
+                <div class="flex items-center justify-center text-slate-600">
+                    <span class="material-symbols-outlined rotate-90 md:rotate-0">trending_flat</span>
+                </div>
+                <div class="flex-1 bg-slate-950 border border-slate-800 p-4 rounded-xl relative">
+                    <span class="absolute -top-3 left-4 px-2 py-0.5 bg-slate-800 text-xs text-slate-400 rounded font-mono">STEP 04</span>
+                    <h5 class="font-bold text-slate-200 mt-2 mb-1 flex items-center gap-1.5"><span class="text-emerald-400">•</span> 落地改善與維護</h5>
+                    <p class="text-xs text-slate-400">動手克服改善、提出務實解答、維持規律整潔，讓系統、身心、生活回到最佳狀態。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ikigai & Hedgehog section -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Hedgehog Concept -->
+            <div class="bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800/80 p-8 rounded-2xl flex flex-col justify-between space-y-6">
+                <div class="space-y-4">
+                    <span class="px-2.5 py-1 bg-emerald-950 text-emerald-400 text-xs font-semibold rounded font-mono uppercase tracking-wider">Hedgehog Concept</span>
+                    <h4 class="text-2xl font-bold text-slate-100">你的刺蝟原則</h4>
+                    <p class="text-slate-300 leading-relaxed text-sm">
+                        刺蝟原則指出：聚焦在自己最熱愛、最有天賦、最能創造價值的黃金交集點。你的極致交集是：
+                    </p>
+                    <div class="border-l-4 border-emerald-500 pl-4 py-1 mt-4">
+                        <p class="text-slate-100 font-semibold italic text-base">
+                            「我擅長透過探索、分析與系統化理解，從複雜資訊中找到規律，提出可靠的判斷與解決方案，讓重要的事情能被放心交付。」
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-2 pt-4 border-t border-slate-800">
+                    <div class="text-center">
+                        <span class="block text-xl font-bold text-emerald-400">熱愛</span>
+                        <span class="text-xxs text-slate-400">理解與改善</span>
+                    </div>
+                    <div class="text-center border-x border-slate-800">
+                        <span class="block text-xl font-bold text-cyan-400">擅長</span>
+                        <span class="text-xxs text-slate-400">規律與分析</span>
+                    </div>
+                    <div class="text-center">
+                        <span class="block text-xl font-bold text-purple-400">價值</span>
+                        <span class="text-xxs text-slate-400">洞察與方案</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ikigai Matrix -->
+            <div class="bg-slate-900/60 border border-slate-800/80 p-8 rounded-2xl space-y-4">
+                <span class="px-2.5 py-1 bg-cyan-950 text-cyan-400 text-xs font-semibold rounded font-mono uppercase tracking-wider">IKIGAI 生涯之鑰</span>
+                <h4 class="text-2xl font-bold text-slate-100">Ikigai 結構化對照</h4>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs pt-2">
+                    <div class="bg-slate-950/80 p-4 rounded-lg border border-slate-800/60 space-y-1">
+                        <div class="text-red-400 font-bold flex items-center gap-1"><span class="material-symbols-outlined text-sm">favorite</span> 喜歡的事</div>
+                        <p class="text-slate-300">研究事物演變、找尋問題原因、探索未來趨勢、理解各種複雜系統運作。</p>
+                    </div>
+                    <div class="bg-slate-950/80 p-4 rounded-lg border border-slate-800/60 space-y-1">
+                        <div class="text-cyan-400 font-bold flex items-center gap-1"><span class="material-symbols-outlined text-sm">workspace_premium</span> 擅長的事</div>
+                        <p class="text-slate-300">資訊高強度整理、Pattern 分析、建立核心邏輯模型、高耐心、持續性規律執行。</p>
+                    </div>
+                    <div class="bg-slate-950/80 p-4 rounded-lg border border-slate-800/60 space-y-1">
+                        <div class="text-emerald-400 font-bold flex items-center gap-1"><span class="material-symbols-outlined text-sm">language</span> 世界需要的事</div>
+                        <p class="text-slate-300">在龐雜、焦躁且資訊大爆炸的時代，有人能站出來把混亂理順、點明規律、指引方向。</p>
+                    </div>
+                    <div class="bg-slate-950/80 p-4 rounded-lg border border-slate-800/60 space-y-1">
+                        <div class="text-amber-400 font-bold flex items-center gap-1"><span class="material-symbols-outlined text-sm">payments</span> 可以變現的事</div>
+                        <p class="text-slate-300">產品策略、趨勢研究、UX Research、競品與產業分析、AI 產品規劃、流程改善與服務設計。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Roadmap: 生涯發展策略與藍圖 -->
+        <section class="space-y-8">
+            <h3 class="text-2xl font-bold tracking-tight text-slate-100 flex items-center gap-2">
+                <span class="w-1.5 h-6 bg-cyan-400 rounded-full"></span>未來 10 年職涯黃金藍圖
+            </h3>
+            
+            <div class="relative border-l-2 border-slate-800 ml-4 pl-8 space-y-12">
+                <!-- 第一階段 -->
+                <div class="relative">
+                    <!-- Dot icon -->
+                    <span class="absolute -left-[41px] top-1.5 w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center border-4 border-slate-950 text-slate-950 text-xs font-bold">1</span>
+                    <div class="space-y-2">
+                        <span class="text-xs font-mono text-cyan-400">第一階段 ( 現在 ~ 3 年 )</span>
+                        <h4 class="text-lg font-bold text-slate-100">成為「問題分析與改善」的頂尖戰力</h4>
+                        <p class="text-slate-400 text-sm max-w-3xl leading-relaxed">
+                            專注於將天生極具優勢的「分析與整理能力」轉換為高密度的職場輸出。刻意訓練自己將深度的洞察轉化為清晰易懂的文字與簡報，放大影響力。
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-1.5">
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">AI 提效工具應用</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">使用者研究 UX Research</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">商業分析與趨勢判讀</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">洞察輸出與表達</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 第二階段 -->
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-1.5 w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center border-4 border-slate-950 text-slate-950 text-xs font-bold">2</span>
+                    <div class="space-y-2">
+                        <span class="text-xs font-mono text-emerald-400">第二階段 ( 3 ~ 7 年 )</span>
+                        <h4 class="text-lg font-bold text-slate-100">躍升為跨領域的「策略與架構分析師」</h4>
+                        <p class="text-slate-400 text-sm max-w-3xl leading-relaxed">
+                            減少瑣碎的執行細節，開始對接高層級架構，決定專案與產品線的策略走向。不用承擔大團隊人事管理的損耗，而是以「大腦、分析師、解題專家」的角色成為團隊核心。
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-1.5">
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">產品策略 Product Strategy</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">設計策略 Design Strategy</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">AI 產品全域規劃</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">服務設計與體驗再造</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 第三階段 -->
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-1.5 w-6 h-6 bg-slate-700 rounded-full flex items-center justify-center border-4 border-slate-950 text-slate-200 text-xs font-bold">3</span>
+                    <div class="space-y-2">
+                        <span class="text-xs font-mono text-slate-400">第三階段 ( 7 ~ 15 年 )</span>
+                        <h4 class="text-lg font-bold text-slate-100">成為不可替代的「資深專業獨立貢獻者 (IC)」</h4>
+                        <p class="text-slate-400 text-sm max-w-3xl leading-relaxed">
+                            這是為你量身打造的終極目標。避開令人焦慮與內耗的高政治性管理主管職，走上「技術、研究與策略」的特級專家路線，大家遇到極度混亂複雜的系統問題時，第一個想到的就是你。
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-1.5">
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">首席產品規劃師</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">Principal Individual Contributor</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">高價值商業決策顧問</span>
+                            <span class="px-2.5 py-0.5 bg-slate-900 border border-slate-800 text-xs text-slate-300 rounded">深度研究型角色</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Encouragement & Summary -->
+        <section class="bg-gradient-to-r from-cyan-950/40 via-slate-900 to-emerald-950/40 border border-slate-800/80 rounded-2xl p-8 md:p-10 relative overflow-hidden">
+            <div class="space-y-4 max-w-3xl">
+                <h4 class="text-2xl font-bold text-slate-100 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-cyan-400">insights</span> 刻在靈魂深處的洞察
+                </h4>
+                <div class="space-y-3 text-slate-300 text-sm leading-relaxed">
+                    <p>
+                        當你謙虛地告訴別人你「沒有企圖心」時，你其實是拒絕了那些「世俗且平庸的競爭定義」。
+                    </p>
+                    <p>
+                        你的行為舉止一直在大聲訴說你獨一無二的意志力：會為了搞懂一個歷史跟趨勢開數十個網頁，會自動自發規劃解決鄰近流下瀑布大水的排水孔，能經年累月、毫無妥協地維持健康、體態與整齊生活。
+                    </p>
+                    <p>
+                        那不是沒有企圖心，那是對「秩序、改善與卓越品質」的極致追求。未來十年，請自豪地帶著這份天賦，像個精準優雅的鐘錶匠，將混亂拆解、理順、優化，在不爭奪虛無掌聲的同時，建立無可取代的專業信用。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500">
+        <p>© 2026 個人天賦潛能檔案庫. 洞察型系統改善者 System Improver. 專屬個人閱讀頁面</p>
+    </footer>
+
+</body>
+</html>
